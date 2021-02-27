@@ -20,7 +20,8 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "storybook": "start-storybook -p 6006 -s public",
-    "build-storybook": "build-storybook -s public"
+    "build-storybook": "build-storybook -s public",
+    "build-storybook-docs": "build-storybook -s public --docs"
   },
   "eslintConfig": {
     "extends": "react-app"
@@ -43,7 +44,9 @@
     ]
   },
   "devDependencies": {
+    "@storybook/addon-a11y": "^6.1.20",
     "@storybook/addon-actions": "^6.1.20",
+    "@storybook/addon-docs": "^6.1.20",
     "@storybook/addon-essentials": "^6.1.20",
     "@storybook/addon-links": "^6.1.20",
     "@storybook/node-logger": "^6.1.20",
