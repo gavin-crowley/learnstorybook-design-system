@@ -14,7 +14,7 @@ const CustomButton = styled.button`
 `;
 
 function ButtonWrapper(props) {
-  return <CustomButton {...props}/>;
+  return <CustomButton {...props} />;
 }
 
 export default {
@@ -75,7 +75,7 @@ export const AllButtons = (args) => (
   </div>
 );
 
-AllButtons.storyName= 'all buttons';
+AllButtons.storyName = 'all buttons';
 
 export const buttonWrapper = (args) => (
   <div>
@@ -144,7 +144,7 @@ export const buttonWrapper = (args) => (
   </div>
 );
 
-buttonWrapper.storyName='button wrapper';
+buttonWrapper.storyName = 'button wrapper';
 
 export const AnchorWrapper = (args) => (
   <div>
@@ -289,4 +289,4 @@ export const AnchorWrapper = (args) => (
   </div>
 );
 
-AnchorWrapper.storyName= 'anchor wrapper';
+AnchorWrapper.storyName = 'anchor wrapper';
